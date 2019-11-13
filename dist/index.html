@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene antialias="true">
+      <a-assets>
+        <a-asset-item id="model" src="avator.glb"></a-asset-item>
+      </a-assets>
+
+      <a-gltf-model
+        src="#model"
+        position="0 1.25 -5"
+        scale="1 1 1"
+      ></a-gltf-model>
+
+      <a-sky color="#CCCCEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
